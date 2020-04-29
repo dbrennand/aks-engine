@@ -50,7 +50,7 @@
    },
    "resources": [  
 	{
-      "apiVersion": "[parameters('apiVersionDeployments')]",
+      "apiVersion": "2017-12-01",
       "dependsOn": [],
       "location": "[resourceGroup().location]",
       "type": "Microsoft.Compute/virtualMachines/extensions",
